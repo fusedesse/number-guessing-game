@@ -7,7 +7,7 @@ answer = random.randint(100, 999)
 attempts = 0
 max_attempts = 10
 
-while True:
+while attempts < max_attempts:
 
     guess = int(input("100～999の数字を入力してください："))
 
