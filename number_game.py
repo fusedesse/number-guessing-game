@@ -6,15 +6,18 @@ answer = random.randint(100, 999)
 
 attempts = 0
 
-guess = int(input("100～999の数字を入力してください："))
+while True:
 
-print("入力した数字:", guess)
+    guess = int(input("100～999の数字を入力してください："))
 
-if guess == answer:
-    print("正解")
+    print("入力した数字:", guess)
 
-elif guess < answer:
-    print("もっと大きい数字です")
+    if guess == answer:
+        print("正解")
+        break
 
-else:
-    print("もっと小さい数字です")
+    elif guess < answer:
+        print("もっと大きい数字です")
+
+    else:
+        print("もっと小さい数字です")
