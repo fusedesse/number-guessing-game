@@ -10,6 +10,10 @@ while True:
 
     guess = int(input("100～999の数字を入力してください："))
 
+    attempts += 1
+
+    print("挑戦回数:", attempts)
+
     print("入力した数字:", guess)
 
     if guess == answer:
