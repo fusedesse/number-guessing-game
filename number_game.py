@@ -26,3 +26,6 @@ while attempts < max_attempts:
 
     else:
         print("もっと小さい数字です")
+
+if attempts == max_attempts:
+    print("ゲームオーバー")
