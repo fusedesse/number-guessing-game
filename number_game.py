@@ -10,3 +10,9 @@ print("入力した数字:", guess)
 
 if guess == answer:
     print("正解")
+
+elif guess < answer:
+    print("もっと大きい数字です")
+
+else:
+    print("もっと小さい数字です")
