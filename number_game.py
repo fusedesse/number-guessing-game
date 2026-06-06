@@ -27,5 +27,6 @@ while attempts < max_attempts:
     else:
         print("もっと小さい数字です")
 
-if attempts == max_attempts:
+if attempts == max_attempts and guess != answer:
     print("ゲームオーバー")
+    print(f"正解は {answer} でした")
