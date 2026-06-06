@@ -5,6 +5,7 @@ print("数字当てゲーム")
 answer = random.randint(100, 999)
 
 attempts = 0
+max_attempts = 10
 
 while True:
 
